@@ -22,7 +22,7 @@ function TextareaExtension(target, processor, font)
 	{
 		preItem.className = "text-area-selection";
 		target.parentNode.appendChild(preItem);
-		target.style.font = preItem.style.font = font || "14px Ariel";
+		target.style.font = preItem.style.font = font || "14px Arial";
 
 		target.style.width = preItem.style.width = target.offsetWidth + "px";
 		target.style.height = preItem.style.height = target.offsetHeight + "px";
