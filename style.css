@@ -1,0 +1,19 @@
+#areaId { 
+    width:300px;
+    height:300px;
+}
+
+.text-area-selection {
+    position:absolute;  
+    padding:2px; 
+    z-index:-1;
+    display:block;
+    word-wrap:break-word;  
+    white-space:pre-wrap;
+    color:white;
+    overflow:scroll;
+}
+
+.text-color-bordered {
+    border-bottom:1px dotted red;
+}
